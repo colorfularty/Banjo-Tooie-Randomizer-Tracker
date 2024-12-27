@@ -1,0 +1,1355 @@
+[
+    {
+        "name": "High Jump",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-high jump.png",
+        "codes": "hj"
+    },
+    {
+        "name": "Peck/Grounded Rat-A-Tat rap",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-peck.png",
+        "codes": "peck"
+    },
+    {
+        "name": "Roll",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-roll.png",
+        "codes": "roll"
+    },
+    {
+        "name": "Rat-A-Tat Rap",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-rat-a-tat rap.png",
+        "codes": "ratr"
+    },
+    {
+        "name": "Beak Barge",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-beak barge.png",
+        "codes": "bkbrg"
+    },
+    {
+        "name": "Flap Flip",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-flap flip.png",
+        "codes": "flpflp"
+    },
+    {
+        "name": "Feathery Flap",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-feathery flap.png",
+        "codes": "fthflp"
+    },
+    {
+        "name": "Climb",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-climb.png",
+        "codes": "climb"
+    },
+    {
+        "name": "Dive",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-dive.png",
+        "codes": "dive"
+    },
+    {
+        "name": "Eggs",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-eggs.png",
+        "codes": "eggs"
+    },
+    {
+        "name": "Egg Firing",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-egg firing.png",
+        "codes": "ef"
+    },
+    {
+        "name": "Talon Trot",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-talon trot.png",
+        "codes": "tlntrt"
+    },
+    {
+        "name": "Beak Buster",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-beak buster.png",
+        "codes": "bkbstr"
+    },
+    {
+        "name": "Flight",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-flight.png",
+        "codes": "flight"
+    },
+    {
+        "name": "Wonderwing Invulnerability",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-wonderwing.png",
+        "codes": "wi"
+    },
+    {
+        "name": "Wading Boots/Stilt Stride",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-wading boots.png",
+        "codes": "wsb"
+    },
+    {
+        "name": "Beak Bomb",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-beak bomb.png",
+        "codes": "bkbmb"
+    },
+    {
+        "name": "Turbo Trainers",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-turbo trainers.png",
+        "codes": "trbtrnrs"
+    },
+
+    {
+        "name": "Fire Eggs",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-fire eggs.png",
+        "codes": "fire_eggs,fe"
+    },
+    {
+        "name": "Grenade Eggs",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-grenade eggs.png",
+        "codes": "grenade_eggs,ge"
+    },
+    {
+        "name": "Ice Eggs",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-ice eggs.png",
+        "codes": "ice_eggs,ie"
+    },
+    {
+        "name": "Clockwork Kazooie Eggs",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-clockwork kazooie eggs.png",
+        "codes": "clockwork_kazooie_eggs,cke"
+    },
+    {
+        "name": "Egg Aiming",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-egg aiming.png",
+        "codes": "egg_aiming,ea"
+    },
+    {
+        "name": "Breegull Blaster",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-breegull blaster.png",
+        "codes": "breegull_blaster,bblstr"
+    },
+    {
+        "name": "Grip Grab",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-grip grab.png",
+        "codes": "grip_grab,gg"
+    },
+    {
+        "name": "Bill Drill",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-bill drill.png",
+        "codes": "bill_drill,bd"
+    },
+    {
+        "name": "Beak Bayonet",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-beak bayonet.png",
+        "codes": "beak_bayonet,bkbnt"
+    },
+    {
+        "name": "Split Up",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-split up.png",
+        "codes": "split_up,su"
+    },
+    {
+        "name": "Aerial Egg Aiming",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-aerial egg aiming.png",
+        "codes": "aerial_egg_aiming,aea"
+    },
+    {
+        "name": "Pack Whack",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-pack whack.png",
+        "codes": "pack_whack,pw"
+    },
+    {
+        "name": "Sub-Aqua Egg Aiming",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-sub aqua egg aiming.png",
+        "codes": "sub_aqua_egg_aiming,saea"
+    },
+    {
+        "name": "Wing Whack",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-wing whack.png",
+        "codes": "wing_whack,ww"
+    },
+    {
+        "name": "Talon Torpedo",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-talon torpedo.png",
+        "codes": "talon_torpedo,ttrp"
+    },
+    {
+        "name": "Springy Step Shoes",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-springy step shoes.png",
+        "codes": "springy_step_shoes,sss"
+    },
+    {
+        "name": "Taxi Pack",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-taxi pack.png",
+        "codes": "taxi_pack,tp"
+    },
+    {
+        "name": "Hatch",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-hatch.png",
+        "codes": "hatch"
+    },
+    {
+        "name": "Claw Clamber Boots",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-claw clamber boots.png",
+        "codes": "claw_clamber_boots,ccb"
+    },
+    {
+        "name": "Snooze Pack",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-snooze pack.png",
+        "codes": "snooze_pack,snzp"
+    },
+    {
+        "name": "Leg Spring",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-leg spring.png",
+        "codes": "leg_spring,ls"
+    },
+    {
+        "name": "Shack Pack",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-shack pack.png",
+        "codes": "shack_pack,shkpk"
+    },
+    {
+        "name": "Glide",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-glide.png",
+        "codes": "glide"
+    },
+    {
+        "name": "Sack Pack",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-sack pack.png",
+        "codes": "sack_pack,skpk"
+    },
+    {
+        "name": "Fast Swimming",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-fast swimming.png",
+        "codes": "fast_swimming,fs"
+    },
+    {
+        "name": "Breegull Bash",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-breegull bash.png",
+        "codes": "breegull_bash,bbsh"
+    },
+    {
+        "name": "T-Rex Roar",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/move-roar.png",
+        "codes": "roar"
+    },
+
+    {
+        "name": "Jiggies",
+        "type": "consumable",
+        "img": "images/Jiggy.png",
+        "codes": "jiggy,jg",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 90
+    },
+    {
+        "name": "Extra Honeycomb Pieces",
+        "type": "consumable",
+        "img": "images/Honeycomb.png",
+        "codes": "honeycomb,h",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 25
+    },
+    {
+        "name": "Cheato Pages",
+        "type": "consumable",
+        "img": "images/Cheato Page.png",
+        "codes": "cheato_page,cp",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 25
+    },
+    {
+        "name": "Doubloons",
+        "type": "consumable",
+        "img": "images/doubloon.png",
+        "codes": "doubloon,d",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 30
+    },
+
+    {
+        "name": "White Jinjo",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/Jinjo-white.png",
+        "codes": "white_jinjo,wj,j1"
+    },
+    {
+        "name": "Orange Jinjos",
+        "type": "consumable",
+        "img": "images/Jinjo-orange.png",
+        "codes": "orange_jinjo,oj,j2",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 2
+    },
+    {
+        "name": "Yellow Jinjos",
+        "type": "consumable",
+        "img": "images/Jinjo-yellow.png",
+        "codes": "yellow_jinjo,yj,j3",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 3
+    },
+    {
+        "name": "Brown Jinjos",
+        "type": "consumable",
+        "img": "images/Jinjo-brown.png",
+        "codes": "brown_jinjo,brnj,j4",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 4
+    },
+    {
+        "name": "Green Jinjos",
+        "type": "consumable",
+        "img": "images/Jinjo-green.png",
+        "codes": "green_jinjo,gj,j5",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 5
+    },
+    {
+        "name": "Red Jinjos",
+        "type": "consumable",
+        "img": "images/Jinjo-red.png",
+        "codes": "red_jinjo,rj,j6",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 6
+    },
+    {
+        "name": "Blue Jinjos",
+        "type": "consumable",
+        "img": "images/Jinjo-blue.png",
+        "codes": "blue_jinjo,bluj,j7",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 7
+    },
+    {
+        "name": "Purple Jinjos",
+        "type": "consumable",
+        "img": "images/Jinjo-purple.png",
+        "codes": "purple_jinjo,pj,j8",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 8
+    },
+    {
+        "name": "Black Jinjos",
+        "type": "consumable",
+        "img": "images/Jinjo-black.png",
+        "codes": "black_jinjo,blkj,j9",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 9
+    },
+
+    {
+        "name": "Ice Key",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/ice key.png",
+        "codes": "ice-key,ik"
+    },
+    {
+        "name": "Blue Mystery Egg",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/blue egg.png",
+        "disabled_img": "images/blue egg dark.png",
+        "disabled_img_mods": "",
+        "codes": "blue_egg,be"
+    },
+    {
+        "name": "Pink Mystery Egg",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/pink egg.png",
+        "disabled_img": "images/pink egg dark.png",
+        "disabled_img_mods": "",
+        "codes": "pink_egg,pe"
+    },
+    {
+        "name": "Mystery Eggs",
+        "type": "composite_toggle",
+        "codes": "mystery_eggs,me",
+        "item_left": "be",
+        "item_right": "pe",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/mystery eggs dark.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/mystery eggs dark.png",
+                "img_mods": "overlay|images/mystery eggs blue only.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/mystery eggs dark.png",
+                "img_mods": "overlay|images/mystery eggs pink only.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/mystery eggs.png"
+            }
+        ]
+    },
+    {
+        "name": "Amaze-O-Gaze Goggles",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/amaze-o-gaze goggles.png",
+        "codes": "amaze_o_gaze_goggles,aogg"
+    },
+    {
+        "name": "Homing Cheat",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/Homing.png",
+        "codes": "homing"
+    },
+    {
+        "name": "Mumbo Token",
+        "type": "consumable",
+        "img": "images/mumbo token.png",
+        "codes": "mumbo_token,mt",
+        "swap_actions": false,
+        "initial_quantity": 0,
+        "max_quantity": 15
+    },
+
+    {
+        "name": "Mumbo: Summon",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/mumbo-summon.png",
+        "codes": "mumbo_summon,m1"
+    },
+    {
+        "name": "Mumbo: Levitate",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/mumbo-levitate.png",
+        "codes": "mumbo_levitate,m2"
+    },
+    {
+        "name": "Mumbo: Power",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/mumbo-power.png",
+        "codes": "mumbo_power,m3"
+    },
+    {
+        "name": "Mumbo: Oxygenate",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/mumbo-oxygenate.png",
+        "codes": "mumbo_oxygenate,m4"
+    },
+    {
+        "name": "Mumbo: Enlarge",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/mumbo-enlarge.png",
+        "codes": "mumbo_enlarge,m5"
+    },
+    {
+        "name": "Mumbo: Emp",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/mumbo-emp.png",
+        "codes": "mumbo_emp,m6"
+    },
+    {
+        "name": "Mumbo: Life Force",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/mumbo-life.png",
+        "codes": "mumbo_life,m7"
+    },
+    {
+        "name": "Mumbo: Rain Dance",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/mumbo-raindance.png",
+        "codes": "mumbo_raindance,m8"
+    },
+    {
+        "name": "Mumbo: Heal",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/mumbo-heal.png",
+        "codes": "mumbo_heal,m9"
+    },
+
+    {
+        "name": "Humba: Stony",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/humba-stony.png",
+        "codes": "humba_stony,h1"
+    },
+    {
+        "name": "Humba: Detonator",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/humba-detonator.png",
+        "codes": "humba_detonator,h2"
+    },
+    {
+        "name": "Humba: Money Van",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/humba-van.png",
+        "codes": "humba_van,h3"
+    },
+    {
+        "name": "Humba: Submarine",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/humba-sub.png",
+        "codes": "humba_sub,h4"
+    },
+    {
+        "name": "Humba: T-Rex",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/humba-trex.png",
+        "codes": "humba_trex,h5"
+    },
+    {
+        "name": "Humba: Washer",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/humba-washer.png",
+        "codes": "humba_washer,h6"
+    },
+    {
+        "name": "Humba: Snowball",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/humba-snowball.png",
+        "codes": "humba_snowball,h7"
+    },
+    {
+        "name": "Humba: Bee",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/humba-bee.png",
+        "codes": "humba_bee,h8"
+    },
+    {
+        "name": "Humba: Dragon",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/humba-dragon.png",
+        "codes": "humba_dragon,h9"
+    },
+
+    {
+        "name": "Chuffy",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/chuffy.png",
+        "codes": "chuffy,c1"
+    },
+    {
+        "name": "Witchyworld Train Station",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/chuffy-witchyworld.png",
+        "codes": "witchyworld_station,c2"
+    },
+    {
+        "name": "Terrydactyland Train Station",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/chuffy-terrydactyland.png",
+        "codes": "terrydactyland_station,c3"
+    },
+    {
+        "name": "Grunty Industries Train Station",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/chuffy-grunty industries.png",
+        "codes": "grunty_industries_station,c4"
+    },
+    {
+        "name": "Hailfire Peaks Fire Side Train Station",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/chuffy-fire.png",
+        "codes": "fire_station,c5"
+    },
+    {
+        "name": "Hailfire Peaks Ice Side Train Station",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/chuffy-ice.png",
+        "codes": "ice_station,c6"
+    },
+    {
+        "name": "Isle O' Hags Train Station",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/chuffy-hags.png",
+        "codes": "hags_station,c7"
+    },
+
+    {
+        "name": "Defeated Targitzan",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/boss-targitzan.png",
+        "codes": "targitzan,tar,b1"
+    },
+    {
+        "name": "Defeated Old King Coal",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/boss-old king coal.png",
+        "codes": "old_king_coal,okc,b2"
+    },
+    {
+        "name": "Defeated Mr. Patch",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/boss-mr patch.png",
+        "codes": "mr_patch,mrp,b3"
+    },
+    {
+        "name": "Defeated Lord Woo Fak Fak",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/boss-lord woo fak fak.png",
+        "codes": "lord_woo_fak_fak,lwff,b4"
+    },
+    {
+        "name": "Defeated Terry",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/boss-terry.png",
+        "codes": "terry,b5"
+    },
+    {
+        "name": "Defeated Weldar",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/boss-weldar.png",
+        "codes": "weldar,b6"
+    },
+    {
+        "name": "Defeated Chilli Billi",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/boss-chilli billi.png",
+        "disabled_img": "images/boss-chilli billy dark.png",
+        "disabled_img_mods": "",
+        "codes": "chilli_billi,cb"
+    },
+    {
+        "name": "Defeated Chilly Willy",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/boss-chilly willy.png",
+        "disabled_img": "images/boss-chilly willy dark.png",
+        "disabled_img_mods": "",
+        "codes": "chilly willy,cw"
+    },
+    {
+        "name": "Defeated Chilli Billi and Chilly Willy",
+        "type": "composite_toggle",
+        "codes": "chillies,b7",
+        "item_left": "cb",
+        "item_right": "cw",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/boss-chillies dark.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/boss-chillies dark.png",
+                "img_mods": "overlay|images/boss-chillies billi only.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/boss-chillies dark.png",
+                "img_mods": "overlay|images/boss-chillies willy only.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/boss-chillies.png"
+            }
+        ]
+    },
+    {
+        "name": "Defeated Mingy Jongo",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/boss-mingy jongo.png",
+        "codes": "mingy_jongo,mj,b8"
+    },
+    {
+        "name": "Defeated Klungo",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/boss-klungo.png",
+        "codes": "klungo,b9"
+    },
+
+    {
+        "name": "Won Mayan Kickball",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-kickball mayan.png",
+        "disabled_img": "images/minigame-kickball mayan dark.png",
+        "disabled_img_mods": "",
+        "codes": "mayan_kickball,mk"
+    },
+    {
+        "name": "Won Colosseum Kickball",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-kickball colosseum.png",
+        "disabled_img": "images/minigame-kickball colosseum dark.png",
+        "disabled_img_mods": "",
+        "codes": "colosseum_kickball,ck"
+    },
+    {
+        "name": "Won Mayan/Colosseum Kickball",
+        "type": "composite_toggle",
+        "codes": "kickball,mg1",
+        "item_left": "mk",
+        "item_right": "ck",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/minigame-kickball dark.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/minigame-kickball dark.png",
+                "img_mods": "overlay|images/minigame-kickball mayan only.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/minigame-kickball dark.png",
+                "img_mods": "overlay|images/minigame-kickball colosseum only.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/minigame-kickball.png"
+            }
+        ]
+    },
+    {
+        "name": "Cleared out the Ordnance Storage",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-ordnance storage.png",
+        "codes": "ordnance_storage,mg2"
+    },
+    {
+        "name": "Won Dodgem Dome",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-dodgem dome.png",
+        "codes": "dodgem_dome,mg3"
+    },
+    {
+        "name": "Won Balloon Burst Game",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-balloon burst.png",
+        "codes": "balloon_burst,mg4"
+    },
+    {
+        "name": "Won Hoop Hurry Game",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-hoop hurry.png",
+        "codes": "hoop_hurry,mg5"
+    },
+    {
+        "name": "Won Saucer of Peril",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-saucer of peril.png",
+        "codes": "saucer_of_peril,mg6"
+    },
+    {
+        "name": "Won Submarine Shootout",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-submarine shootout.png",
+        "codes": "submarine_shootout,mg7"
+    },
+    {
+        "name": "Cleared out Chompa's Belly",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-chompas belly.png",
+        "codes": "chompas_belly,mg8"
+    },
+    {
+        "name": "Won Twinkly Packing",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-packing.png",
+        "codes": "packing,mg9"
+    },
+    {
+        "name": "Cleared out Clinker's Cavern",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-clinkers cavern.png",
+        "codes": "clinkers_cavern,mg10"
+    },
+    {
+        "name": "Won Zubba's Hive Shootout Game",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-zubbas hive.png",
+        "codes": "zubbas_hive,mg11"
+    },
+    {
+        "name": "Won Trashcan Germs Game",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-trashcan germs.png",
+        "codes": "trashcan_germs,mg12"
+    },
+    {
+        "name": "Won Pot O' Gold Game",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-pot o gold.png",
+        "codes": "pot_o_gold,mg13"
+    },
+    {
+        "name": "Beat Canary Mary in Cloud Cuckooland",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/minigame-canary mary.png",
+        "codes": "canary_mary,mg14"
+    },
+
+    {
+        "name": "Mayahem Temple Entrance Open",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/1.png",
+        "codes": "wl1"
+    },
+    {
+        "name": "World inside Mayahem Temple Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/world-unknown.png",
+                "codes": "w1"
+            },
+            {
+                "img": "images/world-mayahem temple.png"
+            },
+            {
+                "img": "images/world-glitter gulch mine.png"
+            },
+            {
+                "img": "images/world-witchyworld.png"
+            },
+            {
+                "img": "images/world-jolly rogers lagoon.png"
+            },
+            {
+                "img": "images/world-terrydactyland.png"
+            },
+            {
+                "img": "images/world-grunty industries.png"
+            },
+            {
+                "img": "images/world-hailfire peaks.png"
+            },
+            {
+                "img": "images/world-cloud cuckooland.png"
+            },
+            {
+                "img": "images/world-cauldron keep.png"
+            }
+        ]
+    },
+    {
+        "name": "Glitter Gulch Mine Entrance Open",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/2.png",
+        "codes": "wl2"
+    },
+    {
+        "name": "World inside Glitter Gulch Mine Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/world-unknown.png",
+                "codes": "w2"
+            },
+            {
+                "img": "images/world-mayahem temple.png"
+            },
+            {
+                "img": "images/world-glitter gulch mine.png"
+            },
+            {
+                "img": "images/world-witchyworld.png"
+            },
+            {
+                "img": "images/world-jolly rogers lagoon.png"
+            },
+            {
+                "img": "images/world-terrydactyland.png"
+            },
+            {
+                "img": "images/world-grunty industries.png"
+            },
+            {
+                "img": "images/world-hailfire peaks.png"
+            },
+            {
+                "img": "images/world-cloud cuckooland.png"
+            },
+            {
+                "img": "images/world-cauldron keep.png"
+            }
+        ]
+    },
+    {
+        "name": "Witchyworld Entrance Open",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/3.png",
+        "codes": "wl3"
+    },
+    {
+        "name": "World inside Witchyworld Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/world-unknown.png",
+                "codes": "w3"
+            },
+            {
+                "img": "images/world-mayahem temple.png"
+            },
+            {
+                "img": "images/world-glitter gulch mine.png"
+            },
+            {
+                "img": "images/world-witchyworld.png"
+            },
+            {
+                "img": "images/world-jolly rogers lagoon.png"
+            },
+            {
+                "img": "images/world-terrydactyland.png"
+            },
+            {
+                "img": "images/world-grunty industries.png"
+            },
+            {
+                "img": "images/world-hailfire peaks.png"
+            },
+            {
+                "img": "images/world-cloud cuckooland.png"
+            },
+            {
+                "img": "images/world-cauldron keep.png"
+            }
+        ]
+    },
+    {
+        "name": "Jolly Roger's Lagoon Entrance Open",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/4.png",
+        "codes": "wl4"
+    },
+    {
+        "name": "World inside Jolly Roger's Lagoon Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/world-unknown.png",
+                "codes": "w4"
+            },
+            {
+                "img": "images/world-mayahem temple.png"
+            },
+            {
+                "img": "images/world-glitter gulch mine.png"
+            },
+            {
+                "img": "images/world-witchyworld.png"
+            },
+            {
+                "img": "images/world-jolly rogers lagoon.png"
+            },
+            {
+                "img": "images/world-terrydactyland.png"
+            },
+            {
+                "img": "images/world-grunty industries.png"
+            },
+            {
+                "img": "images/world-hailfire peaks.png"
+            },
+            {
+                "img": "images/world-cloud cuckooland.png"
+            },
+            {
+                "img": "images/world-cauldron keep.png"
+            }
+        ]
+    },
+    {
+        "name": "Terrydactyland Entrance Open",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/5.png",
+        "codes": "wl5"
+    },
+    {
+        "name": "World inside Terrydactyland Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/world-unknown.png",
+                "codes": "w5"
+            },
+            {
+                "img": "images/world-mayahem temple.png"
+            },
+            {
+                "img": "images/world-glitter gulch mine.png"
+            },
+            {
+                "img": "images/world-witchyworld.png"
+            },
+            {
+                "img": "images/world-jolly rogers lagoon.png"
+            },
+            {
+                "img": "images/world-terrydactyland.png"
+            },
+            {
+                "img": "images/world-grunty industries.png"
+            },
+            {
+                "img": "images/world-hailfire peaks.png"
+            },
+            {
+                "img": "images/world-cloud cuckooland.png"
+            },
+            {
+                "img": "images/world-cauldron keep.png"
+            }
+        ]
+    },
+    {
+        "name": "Grunty Industries Entrance Open",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/6.png",
+        "codes": "wl6"
+    },
+    {
+        "name": "World inside Grunty Industries Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/world-unknown.png",
+                "codes": "w6"
+            },
+            {
+                "img": "images/world-mayahem temple.png"
+            },
+            {
+                "img": "images/world-glitter gulch mine.png"
+            },
+            {
+                "img": "images/world-witchyworld.png"
+            },
+            {
+                "img": "images/world-jolly rogers lagoon.png"
+            },
+            {
+                "img": "images/world-terrydactyland.png"
+            },
+            {
+                "img": "images/world-grunty industries.png"
+            },
+            {
+                "img": "images/world-hailfire peaks.png"
+            },
+            {
+                "img": "images/world-cloud cuckooland.png"
+            },
+            {
+                "img": "images/world-cauldron keep.png"
+            }
+        ]
+    },
+    {
+        "name": "Hailfire Peaks Entrance Open",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/7.png",
+        "codes": "wl7"
+    },
+    {
+        "name": "World inside Hailfire Peaks Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/world-unknown.png",
+                "codes": "w7"
+            },
+            {
+                "img": "images/world-mayahem temple.png"
+            },
+            {
+                "img": "images/world-glitter gulch mine.png"
+            },
+            {
+                "img": "images/world-witchyworld.png"
+            },
+            {
+                "img": "images/world-jolly rogers lagoon.png"
+            },
+            {
+                "img": "images/world-terrydactyland.png"
+            },
+            {
+                "img": "images/world-grunty industries.png"
+            },
+            {
+                "img": "images/world-hailfire peaks.png"
+            },
+            {
+                "img": "images/world-cloud cuckooland.png"
+            },
+            {
+                "img": "images/world-cauldron keep.png"
+            }
+        ]
+    },
+    {
+        "name": "Cloud Cuckooland Entrance Open",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/8.png",
+        "codes": "wl8"
+    },
+    {
+        "name": "World inside Cloud Cuckooland Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/world-unknown.png",
+                "codes": "w8"
+            },
+            {
+                "img": "images/world-mayahem temple.png"
+            },
+            {
+                "img": "images/world-glitter gulch mine.png"
+            },
+            {
+                "img": "images/world-witchyworld.png"
+            },
+            {
+                "img": "images/world-jolly rogers lagoon.png"
+            },
+            {
+                "img": "images/world-terrydactyland.png"
+            },
+            {
+                "img": "images/world-grunty industries.png"
+            },
+            {
+                "img": "images/world-hailfire peaks.png"
+            },
+            {
+                "img": "images/world-cloud cuckooland.png"
+            },
+            {
+                "img": "images/world-cauldron keep.png"
+            }
+        ]
+    },
+    {
+        "name": "Cauldron Keep Entrance Open",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/9.png",
+        "codes": "wl9"
+    },
+    {
+        "name": "World inside Cauldron Keep Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/world-unknown.png",
+                "codes": "w9"
+            },
+            {
+                "img": "images/world-mayahem temple.png"
+            },
+            {
+                "img": "images/world-glitter gulch mine.png"
+            },
+            {
+                "img": "images/world-witchyworld.png"
+            },
+            {
+                "img": "images/world-jolly rogers lagoon.png"
+            },
+            {
+                "img": "images/world-terrydactyland.png"
+            },
+            {
+                "img": "images/world-grunty industries.png"
+            },
+            {
+                "img": "images/world-hailfire peaks.png"
+            },
+            {
+                "img": "images/world-cloud cuckooland.png"
+            },
+            {
+                "img": "images/world-cauldron keep.png"
+            }
+        ]
+    }
+]
