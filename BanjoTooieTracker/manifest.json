@@ -1,0 +1,59 @@
+{
+	"name": "Banjo-Tooie Randomizer Tracker",
+	"game_name": "Banjo-Tooie",
+	"platform": "n64",
+	"package_version": "1.0.0",
+	"package_uid": "banjo-tooie",
+	"layout_engine_version": "1.0",
+	"author": "Colorful Arty",
+	"variants": {
+		"standard": {
+			"display_name": "Standard"
+		},
+		"standard_bk": {
+			"display_name": "Standard + BK Moves"
+		},
+		"standard_entrance": {
+			"display_name": "Standard + Shuffled Worlds"
+		},
+		"standard_bk_entrance": {
+			"display_name": "Standard + BK Moves + Shuffled Worlds"
+		},
+		"minigames": {
+			"display_name": "Minigames"
+		},
+		"minigames_bk": {
+			"display_name": "Minigames + BK Moves"
+		},
+		"minigames_entrance": {
+			"display_name": "Minigames + Shuffled Worlds"
+		},
+		"minigames_bk_entrance": {
+			"display_name": "Minigames + BK Moves + Shuffled Worlds"
+		},
+		"bosses": {
+			"display_name": "Bosses"
+		},
+		"bosses_bk": {
+			"display_name": "Bosses + BK Moves"
+		},
+		"bosses_entrance": {
+			"display_name": "Bosses + Shuffled Worlds"
+		},
+		"bosses_bk_entrance": {
+			"display_name": "Bosses + BK Moves + Shuffled Worlds"
+		},
+		"wonderwing": {
+			"display_name": "Wonderwing"
+		},
+		"wondering_bk": {
+			"display_name": "Wonderwing + BK Moves"
+		},
+		"wonderwing_entrance": {
+			"display_name": "Wonderwing + Shuffled Worlds"
+		},
+		"wonderwing_bk_entrance": {
+			"display_name": "Wonderwing + BK Moves + Shuffled Worlds"
+		}
+	}
+}
