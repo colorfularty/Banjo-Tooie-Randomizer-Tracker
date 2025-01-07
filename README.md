@@ -27,7 +27,7 @@ This tracker features tracking for various Banjo-Tooie settings as well as 100% 
 ### BK moves
 - Includes moves from the original Banjo-Kazooie
 ### Shuffled Worlds
-- Track which worlds have been opened (1 = Mayahem Temple entrance in Wooded Hollow, 2 = Glitter Gulch Mine entrance in Plateau, etc.)
+- Track which world entrances have been opened and in what order (order helps keep track of Jamjars move prices if progressive move cost option is chosen)
 - Track which entrances lead to which worlds (i.e. Witchyworld entrance in Pine Grove could lead to Terrydactyland)
 
 # Instructions for use:
