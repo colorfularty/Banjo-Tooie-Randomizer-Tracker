@@ -1,13 +1,13 @@
 [
     {
-        "name": "High Jump",
+        "name": "High/Tall Jump",
         "type": "toggle",
         "loop": true,
         "img": "images/move-high jump.png",
         "codes": "hj"
     },
     {
-        "name": "Peck/Grounded Rat-A-Tat rap",
+        "name": "Peck/Grounded Rat-A-Tat Rap",
         "type": "toggle",
         "loop": true,
         "img": "images/move-peck.png",
@@ -21,7 +21,7 @@
         "codes": "roll"
     },
     {
-        "name": "Rat-A-Tat Rap",
+        "name": "(Aerial) Rat-A-Tat Rap",
         "type": "toggle",
         "loop": true,
         "img": "images/move-rat-a-tat rap.png",
@@ -63,7 +63,7 @@
         "codes": "dive"
     },
     {
-        "name": "Eggs",
+        "name": "Blue Eggs",
         "type": "toggle",
         "loop": true,
         "img": "images/move-eggs.png",
@@ -91,7 +91,7 @@
         "codes": "bkbstr"
     },
     {
-        "name": "Flight",
+        "name": "Flight (Pads)",
         "type": "toggle",
         "loop": true,
         "img": "images/move-flight.png",
@@ -308,13 +308,6 @@
         "img": "images/move-breegull bash.png",
         "codes": "breegull_bash,bbsh"
     },
-    {
-        "name": "T-Rex Roar",
-        "type": "toggle",
-        "loop": true,
-        "img": "images/move-roar.png",
-        "codes": "roar"
-    },
 
     {
         "name": "Jiggies",
@@ -497,14 +490,21 @@
         "codes": "amaze_o_gaze_goggles,aogg"
     },
     {
-        "name": "Homing Cheat",
+        "name": "Double Air",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/double air.png",
+        "codes": "double_air,da"
+    },
+    {
+        "name": "Homing Eggs Cheat",
         "type": "toggle",
         "loop": true,
         "img": "images/Homing.png",
         "codes": "homing"
     },
     {
-        "name": "Mumbo Token",
+        "name": "Mumbo Tokens",
         "type": "consumable",
         "img": "images/mumbo token.png",
         "codes": "mumbo_token,mt",
@@ -514,7 +514,7 @@
     },
 
     {
-        "name": "Mumbo: Summon",
+        "name": "Mumbo: Summon (Golden Goliath)",
         "type": "toggle",
         "loop": true,
         "img": "images/mumbo-summon.png",
@@ -535,7 +535,7 @@
         "codes": "mumbo_power,m3"
     },
     {
-        "name": "Mumbo: Oxygenate",
+        "name": "Mumbo: Sunlight (Oxygenate)",
         "type": "toggle",
         "loop": true,
         "img": "images/mumbo-oxygenate.png",
@@ -599,7 +599,7 @@
         "codes": "humba_van,h3"
     },
     {
-        "name": "Humba: Submarine",
+        "name": "Humba: Sub(marine)",
         "type": "toggle",
         "loop": true,
         "img": "images/humba-sub.png",
@@ -610,10 +610,52 @@
         "type": "toggle",
         "loop": true,
         "img": "images/humba-trex.png",
-        "codes": "humba_trex,h5"
+        "disabled_img": "images/humba-trex dark.png",
+        "disabled_img_mods": "",
+        "codes": "humba_trex"
     },
     {
-        "name": "Humba: Washer",
+        "name": "Roar",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/overlay-roar.png",
+        "disabled_img": "images/overlay-roar dark.png",
+        "disabled_img_mods": "",
+        "codes": "roar"
+    },
+    {
+        "name": "Humba: T-Rex + Baby T-Rex Roar",
+        "type": "composite_toggle",
+        "codes": "humba_trex,h5",
+        "item_left": "humba_trex",
+        "item_right": "roar",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/humba-trex composite dark.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/humba-trex.png",
+                "img_mods": "overlay|images/overlay-roar dark.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/humba-trex dark.png",
+                "img_mods": "overlay|images/overlay-roar.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/humba-trex composite.png"
+            }
+        ]
+    },
+    {
+        "name": "Humba: Washing Machine",
         "type": "toggle",
         "loop": true,
         "img": "images/humba-washer.png",
@@ -670,14 +712,14 @@
         "codes": "grunty_industries_station,c4"
     },
     {
-        "name": "Hailfire Peaks Fire Side Train Station",
+        "name": "Hailfire Peaks Lava Side Train Station",
         "type": "toggle",
         "loop": true,
         "img": "images/chuffy-fire.png",
         "codes": "fire_station,c5"
     },
     {
-        "name": "Hailfire Peaks Ice Side Train Station",
+        "name": "Hailfire Peaks Icy Side Train Station",
         "type": "toggle",
         "loop": true,
         "img": "images/chuffy-ice.png",
@@ -738,63 +780,21 @@
         "type": "toggle",
         "loop": true,
         "img": "images/boss-chilli billi.png",
-        "disabled_img": "images/boss-chilli billy dark.png",
-        "disabled_img_mods": "",
-        "codes": "chilli_billi,cb"
+        "codes": "chilli_billi,b7"
     },
     {
         "name": "Defeated Chilly Willy",
         "type": "toggle",
         "loop": true,
         "img": "images/boss-chilly willy.png",
-        "disabled_img": "images/boss-chilly willy dark.png",
-        "disabled_img_mods": "",
-        "codes": "chilly willy,cw"
-    },
-    {
-        "name": "Defeated Chilli Billi and Chilly Willy",
-        "type": "composite_toggle",
-        "codes": "chillies,b7",
-        "item_left": "cb",
-        "item_right": "cw",
-        "images": [
-            {
-                "left": false,
-                "right": false,
-                "img": "images/boss-chillies dark.png"
-            },
-            {
-                "left": true,
-                "right": false,
-                "img": "images/boss-chillies dark.png",
-                "img_mods": "overlay|images/boss-chillies billi only.png"
-            },
-            {
-                "left": false,
-                "right": true,
-                "img": "images/boss-chillies dark.png",
-                "img_mods": "overlay|images/boss-chillies willy only.png"
-            },
-            {
-                "left": true,
-                "right": true,
-                "img": "images/boss-chillies.png"
-            }
-        ]
+        "codes": "chilly willy,b8"
     },
     {
         "name": "Defeated Mingy Jongo",
         "type": "toggle",
         "loop": true,
         "img": "images/boss-mingy jongo.png",
-        "codes": "mingy_jongo,mj,b8"
-    },
-    {
-        "name": "Defeated Klungo",
-        "type": "toggle",
-        "loop": true,
-        "img": "images/boss-klungo.png",
-        "codes": "klungo,b9"
+        "codes": "mingy_jongo,mj,b9"
     },
 
     {
@@ -939,11 +939,535 @@
     },
 
     {
-        "name": "Mayahem Temple Entrance Open",
-        "type": "toggle",
+        "name": "World 1 Entrance",
+        "type": "progressive",
         "loop": true,
-        "img": "images/1.png",
-        "codes": "wl1"
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/1.png",
+                "img_mods": "@disabled",
+                "codes": "e1",
+                "secondary_codes": "entrance, 0"
+            },
+            {
+                "img": "images/1.png",
+                "img_mods": "overlay|images/overlay-mayahem temple.png",
+                "secondary_codes": "entrance, 1"
+            },
+            {
+                "img": "images/1.png",
+                "img_mods": "overlay|images/overlay-glitter gulch mine.png",
+                "secondary_codes": "entrance, 2"
+            },
+            {
+                "img": "images/1.png",
+                "img_mods": "overlay|images/overlay-witchyworld.png",
+                "secondary_codes": "entrance, 3"
+            },
+            {
+                "img": "images/1.png",
+                "img_mods": "overlay|images/overlay-jolly rogers lagoon.png",
+                "secondary_codes": "entrance, 4"
+            },
+            {
+                "img": "images/1.png",
+                "img_mods": "overlay|images/overlay-terrydactyland.png",
+                "secondary_codes": "entrance, 5"
+            },
+            {
+                "img": "images/1.png",
+                "img_mods": "overlay|images/overlay-grunty industries.png",
+                "secondary_codes": "entrance, 6"
+            },
+            {
+                "img": "images/1.png",
+                "img_mods": "overlay|images/overlay-hailfire peaks.png",
+                "secondary_codes": "entrance, 7"
+            },
+            {
+                "img": "images/1.png",
+                "img_mods": "overlay|images/overlay-cloud cuckooland.png",
+                "secondary_codes": "entrance, 8"
+            },
+            {
+                "img": "images/1.png",
+                "img_mods": "overlay|images/overlay-cauldron keep.png",
+                "secondary_codes": "entrance, 9"
+            }
+        ]
+    },
+    {
+        "name": "World 2 Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/2.png",
+                "img_mods": "@disabled",
+                "codes": "e2",
+                "secondary_codes": "entrance, 0"
+            },
+            {
+                "img": "images/2.png",
+                "img_mods": "overlay|images/overlay-mayahem temple.png",
+                "secondary_codes": "entrance, 1"
+            },
+            {
+                "img": "images/2.png",
+                "img_mods": "overlay|images/overlay-glitter gulch mine.png",
+                "secondary_codes": "entrance, 2"
+            },
+            {
+                "img": "images/2.png",
+                "img_mods": "overlay|images/overlay-witchyworld.png",
+                "secondary_codes": "entrance, 3"
+            },
+            {
+                "img": "images/2.png",
+                "img_mods": "overlay|images/overlay-jolly rogers lagoon.png",
+                "secondary_codes": "entrance, 4"
+            },
+            {
+                "img": "images/2.png",
+                "img_mods": "overlay|images/overlay-terrydactyland.png",
+                "secondary_codes": "entrance, 5"
+            },
+            {
+                "img": "images/2.png",
+                "img_mods": "overlay|images/overlay-grunty industries.png",
+                "secondary_codes": "entrance, 6"
+            },
+            {
+                "img": "images/2.png",
+                "img_mods": "overlay|images/overlay-hailfire peaks.png",
+                "secondary_codes": "entrance, 7"
+            },
+            {
+                "img": "images/2.png",
+                "img_mods": "overlay|images/overlay-cloud cuckooland.png",
+                "secondary_codes": "entrance, 8"
+            },
+            {
+                "img": "images/2.png",
+                "img_mods": "overlay|images/overlay-cauldron keep.png",
+                "secondary_codes": "entrance, 9"
+            }
+        ]
+    },
+    {
+        "name": "World 3 Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/3.png",
+                "img_mods": "@disabled",
+                "codes": "e3",
+                "secondary_codes": "entrance, 0"
+            },
+            {
+                "img": "images/3.png",
+                "img_mods": "overlay|images/overlay-mayahem temple.png",
+                "secondary_codes": "entrance, 1"
+            },
+            {
+                "img": "images/3.png",
+                "img_mods": "overlay|images/overlay-glitter gulch mine.png",
+                "secondary_codes": "entrance, 2"
+            },
+            {
+                "img": "images/3.png",
+                "img_mods": "overlay|images/overlay-witchyworld.png",
+                "secondary_codes": "entrance, 3"
+            },
+            {
+                "img": "images/3.png",
+                "img_mods": "overlay|images/overlay-jolly rogers lagoon.png",
+                "secondary_codes": "entrance, 4"
+            },
+            {
+                "img": "images/3.png",
+                "img_mods": "overlay|images/overlay-terrydactyland.png",
+                "secondary_codes": "entrance, 5"
+            },
+            {
+                "img": "images/3.png",
+                "img_mods": "overlay|images/overlay-grunty industries.png",
+                "secondary_codes": "entrance, 6"
+            },
+            {
+                "img": "images/3.png",
+                "img_mods": "overlay|images/overlay-hailfire peaks.png",
+                "secondary_codes": "entrance, 7"
+            },
+            {
+                "img": "images/3.png",
+                "img_mods": "overlay|images/overlay-cloud cuckooland.png",
+                "secondary_codes": "entrance, 8"
+            },
+            {
+                "img": "images/3.png",
+                "img_mods": "overlay|images/overlay-cauldron keep.png",
+                "secondary_codes": "entrance, 9"
+            }
+        ]
+    },
+    {
+        "name": "World 4 Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/4.png",
+                "img_mods": "@disabled",
+                "codes": "e4",
+                "secondary_codes": "entrance, 0"
+            },
+            {
+                "img": "images/4.png",
+                "img_mods": "overlay|images/overlay-mayahem temple.png",
+                "secondary_codes": "entrance, 1"
+            },
+            {
+                "img": "images/4.png",
+                "img_mods": "overlay|images/overlay-glitter gulch mine.png",
+                "secondary_codes": "entrance, 2"
+            },
+            {
+                "img": "images/4.png",
+                "img_mods": "overlay|images/overlay-witchyworld.png",
+                "secondary_codes": "entrance, 3"
+            },
+            {
+                "img": "images/4.png",
+                "img_mods": "overlay|images/overlay-jolly rogers lagoon.png",
+                "secondary_codes": "entrance, 4"
+            },
+            {
+                "img": "images/4.png",
+                "img_mods": "overlay|images/overlay-terrydactyland.png",
+                "secondary_codes": "entrance, 5"
+            },
+            {
+                "img": "images/4.png",
+                "img_mods": "overlay|images/overlay-grunty industries.png",
+                "secondary_codes": "entrance, 6"
+            },
+            {
+                "img": "images/4.png",
+                "img_mods": "overlay|images/overlay-hailfire peaks.png",
+                "secondary_codes": "entrance, 7"
+            },
+            {
+                "img": "images/4.png",
+                "img_mods": "overlay|images/overlay-cloud cuckooland.png",
+                "secondary_codes": "entrance, 8"
+            },
+            {
+                "img": "images/4.png",
+                "img_mods": "overlay|images/overlay-cauldron keep.png",
+                "secondary_codes": "entrance, 9"
+            }
+        ]
+    },
+    {
+        "name": "World 5 Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/5.png",
+                "img_mods": "@disabled",
+                "codes": "e5",
+                "secondary_codes": "entrance, 0"
+            },
+            {
+                "img": "images/5.png",
+                "img_mods": "overlay|images/overlay-mayahem temple.png",
+                "secondary_codes": "entrance, 1"
+            },
+            {
+                "img": "images/5.png",
+                "img_mods": "overlay|images/overlay-glitter gulch mine.png",
+                "secondary_codes": "entrance, 2"
+            },
+            {
+                "img": "images/5.png",
+                "img_mods": "overlay|images/overlay-witchyworld.png",
+                "secondary_codes": "entrance, 3"
+            },
+            {
+                "img": "images/5.png",
+                "img_mods": "overlay|images/overlay-jolly rogers lagoon.png",
+                "secondary_codes": "entrance, 4"
+            },
+            {
+                "img": "images/5.png",
+                "img_mods": "overlay|images/overlay-terrydactyland.png",
+                "secondary_codes": "entrance, 5"
+            },
+            {
+                "img": "images/5.png",
+                "img_mods": "overlay|images/overlay-grunty industries.png",
+                "secondary_codes": "entrance, 6"
+            },
+            {
+                "img": "images/5.png",
+                "img_mods": "overlay|images/overlay-hailfire peaks.png",
+                "secondary_codes": "entrance, 7"
+            },
+            {
+                "img": "images/5.png",
+                "img_mods": "overlay|images/overlay-cloud cuckooland.png",
+                "secondary_codes": "entrance, 8"
+            },
+            {
+                "img": "images/5.png",
+                "img_mods": "overlay|images/overlay-cauldron keep.png",
+                "secondary_codes": "entrance, 9"
+            }
+        ]
+    },
+    {
+        "name": "World 6 Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/6.png",
+                "img_mods": "@disabled",
+                "codes": "e6",
+                "secondary_codes": "entrance, 0"
+            },
+            {
+                "img": "images/6.png",
+                "img_mods": "overlay|images/overlay-mayahem temple.png",
+                "secondary_codes": "entrance, 1"
+            },
+            {
+                "img": "images/6.png",
+                "img_mods": "overlay|images/overlay-glitter gulch mine.png",
+                "secondary_codes": "entrance, 2"
+            },
+            {
+                "img": "images/6.png",
+                "img_mods": "overlay|images/overlay-witchyworld.png",
+                "secondary_codes": "entrance, 3"
+            },
+            {
+                "img": "images/6.png",
+                "img_mods": "overlay|images/overlay-jolly rogers lagoon.png",
+                "secondary_codes": "entrance, 4"
+            },
+            {
+                "img": "images/6.png",
+                "img_mods": "overlay|images/overlay-terrydactyland.png",
+                "secondary_codes": "entrance, 5"
+            },
+            {
+                "img": "images/6.png",
+                "img_mods": "overlay|images/overlay-grunty industries.png",
+                "secondary_codes": "entrance, 6"
+            },
+            {
+                "img": "images/6.png",
+                "img_mods": "overlay|images/overlay-hailfire peaks.png",
+                "secondary_codes": "entrance, 7"
+            },
+            {
+                "img": "images/6.png",
+                "img_mods": "overlay|images/overlay-cloud cuckooland.png",
+                "secondary_codes": "entrance, 8"
+            },
+            {
+                "img": "images/6.png",
+                "img_mods": "overlay|images/overlay-cauldron keep.png",
+                "secondary_codes": "entrance, 9"
+            }
+        ]
+    },
+    {
+        "name": "World 7 Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/7.png",
+                "img_mods": "@disabled",
+                "codes": "e7",
+                "secondary_codes": "entrance, 0"
+            },
+            {
+                "img": "images/7.png",
+                "img_mods": "overlay|images/overlay-mayahem temple.png",
+                "secondary_codes": "entrance, 1"
+            },
+            {
+                "img": "images/7.png",
+                "img_mods": "overlay|images/overlay-glitter gulch mine.png",
+                "secondary_codes": "entrance, 2"
+            },
+            {
+                "img": "images/7.png",
+                "img_mods": "overlay|images/overlay-witchyworld.png",
+                "secondary_codes": "entrance, 3"
+            },
+            {
+                "img": "images/7.png",
+                "img_mods": "overlay|images/overlay-jolly rogers lagoon.png",
+                "secondary_codes": "entrance, 4"
+            },
+            {
+                "img": "images/7.png",
+                "img_mods": "overlay|images/overlay-terrydactyland.png",
+                "secondary_codes": "entrance, 5"
+            },
+            {
+                "img": "images/7.png",
+                "img_mods": "overlay|images/overlay-grunty industries.png",
+                "secondary_codes": "entrance, 6"
+            },
+            {
+                "img": "images/7.png",
+                "img_mods": "overlay|images/overlay-hailfire peaks.png",
+                "secondary_codes": "entrance, 7"
+            },
+            {
+                "img": "images/7.png",
+                "img_mods": "overlay|images/overlay-cloud cuckooland.png",
+                "secondary_codes": "entrance, 8"
+            },
+            {
+                "img": "images/7.png",
+                "img_mods": "overlay|images/overlay-cauldron keep.png",
+                "secondary_codes": "entrance, 9"
+            }
+        ]
+    },
+    {
+        "name": "World 8 Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/8.png",
+                "img_mods": "@disabled",
+                "codes": "e8",
+                "secondary_codes": "entrance, 0"
+            },
+            {
+                "img": "images/8.png",
+                "img_mods": "overlay|images/overlay-mayahem temple.png",
+                "secondary_codes": "entrance, 1"
+            },
+            {
+                "img": "images/8.png",
+                "img_mods": "overlay|images/overlay-glitter gulch mine.png",
+                "secondary_codes": "entrance, 2"
+            },
+            {
+                "img": "images/8.png",
+                "img_mods": "overlay|images/overlay-witchyworld.png",
+                "secondary_codes": "entrance, 3"
+            },
+            {
+                "img": "images/8.png",
+                "img_mods": "overlay|images/overlay-jolly rogers lagoon.png",
+                "secondary_codes": "entrance, 4"
+            },
+            {
+                "img": "images/8.png",
+                "img_mods": "overlay|images/overlay-terrydactyland.png",
+                "secondary_codes": "entrance, 5"
+            },
+            {
+                "img": "images/8.png",
+                "img_mods": "overlay|images/overlay-grunty industries.png",
+                "secondary_codes": "entrance, 6"
+            },
+            {
+                "img": "images/8.png",
+                "img_mods": "overlay|images/overlay-hailfire peaks.png",
+                "secondary_codes": "entrance, 7"
+            },
+            {
+                "img": "images/8.png",
+                "img_mods": "overlay|images/overlay-cloud cuckooland.png",
+                "secondary_codes": "entrance, 8"
+            },
+            {
+                "img": "images/8.png",
+                "img_mods": "overlay|images/overlay-cauldron keep.png",
+                "secondary_codes": "entrance, 9"
+            }
+        ]
+    },
+    {
+        "name": "World 9 Entrance",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/9.png",
+                "img_mods": "@disabled",
+                "codes": "e9",
+                "secondary_codes": "entrance, 0"
+            },
+            {
+                "img": "images/9.png",
+                "img_mods": "overlay|images/overlay-mayahem temple.png",
+                "secondary_codes": "entrance, 1"
+            },
+            {
+                "img": "images/9.png",
+                "img_mods": "overlay|images/overlay-glitter gulch mine.png",
+                "secondary_codes": "entrance, 2"
+            },
+            {
+                "img": "images/9.png",
+                "img_mods": "overlay|images/overlay-witchyworld.png",
+                "secondary_codes": "entrance, 3"
+            },
+            {
+                "img": "images/9.png",
+                "img_mods": "overlay|images/overlay-jolly rogers lagoon.png",
+                "secondary_codes": "entrance, 4"
+            },
+            {
+                "img": "images/9.png",
+                "img_mods": "overlay|images/overlay-terrydactyland.png",
+                "secondary_codes": "entrance, 5"
+            },
+            {
+                "img": "images/9.png",
+                "img_mods": "overlay|images/overlay-grunty industries.png",
+                "secondary_codes": "entrance, 6"
+            },
+            {
+                "img": "images/9.png",
+                "img_mods": "overlay|images/overlay-hailfire peaks.png",
+                "secondary_codes": "entrance, 7"
+            },
+            {
+                "img": "images/9.png",
+                "img_mods": "overlay|images/overlay-cloud cuckooland.png",
+                "secondary_codes": "entrance, 8"
+            },
+            {
+                "img": "images/9.png",
+                "img_mods": "overlay|images/overlay-cauldron keep.png",
+                "secondary_codes": "entrance, 9"
+            }
+        ]
     },
     {
         "name": "World inside Mayahem Temple Entrance",
@@ -985,13 +1509,6 @@
         ]
     },
     {
-        "name": "Glitter Gulch Mine Entrance Open",
-        "type": "toggle",
-        "loop": true,
-        "img": "images/2.png",
-        "codes": "wl2"
-    },
-    {
         "name": "World inside Glitter Gulch Mine Entrance",
         "type": "progressive",
         "loop": true,
@@ -1029,13 +1546,6 @@
                 "img": "images/world-cauldron keep.png"
             }
         ]
-    },
-    {
-        "name": "Witchyworld Entrance Open",
-        "type": "toggle",
-        "loop": true,
-        "img": "images/3.png",
-        "codes": "wl3"
     },
     {
         "name": "World inside Witchyworld Entrance",
@@ -1077,13 +1587,6 @@
         ]
     },
     {
-        "name": "Jolly Roger's Lagoon Entrance Open",
-        "type": "toggle",
-        "loop": true,
-        "img": "images/4.png",
-        "codes": "wl4"
-    },
-    {
         "name": "World inside Jolly Roger's Lagoon Entrance",
         "type": "progressive",
         "loop": true,
@@ -1121,13 +1624,6 @@
                 "img": "images/world-cauldron keep.png"
             }
         ]
-    },
-    {
-        "name": "Terrydactyland Entrance Open",
-        "type": "toggle",
-        "loop": true,
-        "img": "images/5.png",
-        "codes": "wl5"
     },
     {
         "name": "World inside Terrydactyland Entrance",
@@ -1169,13 +1665,6 @@
         ]
     },
     {
-        "name": "Grunty Industries Entrance Open",
-        "type": "toggle",
-        "loop": true,
-        "img": "images/6.png",
-        "codes": "wl6"
-    },
-    {
         "name": "World inside Grunty Industries Entrance",
         "type": "progressive",
         "loop": true,
@@ -1213,13 +1702,6 @@
                 "img": "images/world-cauldron keep.png"
             }
         ]
-    },
-    {
-        "name": "Hailfire Peaks Entrance Open",
-        "type": "toggle",
-        "loop": true,
-        "img": "images/7.png",
-        "codes": "wl7"
     },
     {
         "name": "World inside Hailfire Peaks Entrance",
@@ -1261,13 +1743,6 @@
         ]
     },
     {
-        "name": "Cloud Cuckooland Entrance Open",
-        "type": "toggle",
-        "loop": true,
-        "img": "images/8.png",
-        "codes": "wl8"
-    },
-    {
         "name": "World inside Cloud Cuckooland Entrance",
         "type": "progressive",
         "loop": true,
@@ -1305,13 +1780,6 @@
                 "img": "images/world-cauldron keep.png"
             }
         ]
-    },
-    {
-        "name": "Cauldron Keep Entrance Open",
-        "type": "toggle",
-        "loop": true,
-        "img": "images/9.png",
-        "codes": "wl9"
     },
     {
         "name": "World inside Cauldron Keep Entrance",
