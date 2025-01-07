@@ -1,7 +1,7 @@
 # Banjo-Tooie-Randomizer-Tracker
 - An [EmoTracker](https://emotracker.net/) pack for the [Banjo-Tooie Randomizer](https://github.com/jjjj12212/Archipelago-BanjoTooie)!
 - Current version: 1.0 (12/27/2024)
-<img src="">
+<img src="https://github.com/colorfularty/Banjo-Tooie-Randomizer-Tracker/blob/main/Banjo%20Tooie%20Tracker%20Example.png">
 
 # Features
 This tracker features tracking for various Banjo-Tooie settings as well as 100% playthroughs.
