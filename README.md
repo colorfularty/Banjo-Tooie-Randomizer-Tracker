@@ -7,7 +7,7 @@
 This tracker features tracking for various Banjo-Tooie settings as well as 100% playthroughs.
 ### Standard
 - All moves learned from Jamjars
-- Extra moves learned from other sources (amaze-o-gaze goggles, fast swimming, breegull bash, t-rex roar)
+- Extra moves learned from other sources (amaze-o-gaze goggles, fast swimming, double air, breegull bash, t-rex roar)
 - All Mumbo spells
 - All Humba transformations
 - Jinjos collected for each color family
