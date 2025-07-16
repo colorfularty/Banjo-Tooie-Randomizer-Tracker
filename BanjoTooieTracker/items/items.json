@@ -510,7 +510,7 @@
         "codes": "mumbo_token,mt",
         "swap_actions": false,
         "initial_quantity": 0,
-        "max_quantity": 15
+        "max_quantity": 32
     },
 
     {
